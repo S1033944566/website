@@ -27,12 +27,12 @@
         <el-table-column label="邮箱" prop="email"></el-table-column>
         <el-table-column label="密码" prop="password"></el-table-column>
         <el-table-column label="角色" prop="role"></el-table-column>
-        <el-table-column label="状态" prop="state">
-          <!-- scope.row 就是当前行的信息 -->
-          <template slot-scope="scope">
-            <el-switch v-model="scope.row.state" @change="userStateChanged(scope.row)"></el-switch>
-          </template>
-        </el-table-column>
+<!--        <el-table-column label="状态" prop="state">-->
+<!--          &lt;!&ndash; scope.row 就是当前行的信息 &ndash;&gt;-->
+<!--          <template slot-scope="scope">-->
+<!--            <el-switch v-model="scope.row.state" @change="userStateChanged(scope.row)"></el-switch>-->
+<!--          </template>-->
+<!--        </el-table-column>-->
 
         <el-table-column label="操作">
           <template slot-scope="scope">
@@ -41,9 +41,9 @@
             <!-- 删除 -->
             <el-button type="danger" icon="el-icon-delete" size="mini" @click="deleteUser(scope.row.id)"></el-button>
             <!-- 权限 -->
-            <el-tooltip effect="dark" content="分配权限" placement="top-start" :enterable="false">
-              <el-button type="warning" icon="el-icon-setting" size="mini"></el-button>
-            </el-tooltip>
+<!--            <el-tooltip effect="dark" content="分配权限" placement="top-start" :enterable="false">-->
+<!--              <el-button type="warning" icon="el-icon-setting" size="mini"></el-button>-->
+<!--            </el-tooltip>-->
           </template>
         </el-table-column>
       </el-table>

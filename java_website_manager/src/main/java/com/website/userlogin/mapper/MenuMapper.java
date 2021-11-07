@@ -1,13 +1,13 @@
 package com.website.userlogin.mapper;
 
 import com.website.userlogin.entity.MainMenu;
-import org.springframework.stereotype.Repository;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
 
-@Repository
+@Mapper
 public interface MenuMapper {
-    public List<MainMenu> getMainMenus();
+     List<MainMenu> getMainMenus();
 
 }
