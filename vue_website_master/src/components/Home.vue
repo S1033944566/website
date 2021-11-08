@@ -3,8 +3,11 @@
     <!--头部布局-->
     <el-header>
       <div>
-        <img src="../assets/logo.jpg" alt class="logo_img" />
-        <span>网页管理平台</span>
+<!--        <img src="../assets/logo.jpg" alt class="logo_img" />-->
+        <span>管理平台</span>
+          <span> <a href="../assets/font/demo_index.html" target="_blank"
+                    class="nav-more">进入主页
+                </a></span>
       </div>
       <el-button type="info" @click="logout">安全退出</el-button>
     </el-header>
@@ -45,13 +48,13 @@ export default {
             // 左侧菜单
             menuList: [],
             iconsObject: {
-              '100':'iconfont iconguanliyuan',
-              '200':'iconfont iconsport',
+              '100':'iconfont ',
+              '200':'iconfont ',
               '101':'iconfont icondenglu',
               '102':'iconfont iconmima',
               '103':'iconfont iconsport',
               '104':'iconfont iconshangpin',
-              '201':'iconfont iconshu',
+              '201':'iconfont iconguanliyuan',
               '202':'iconfont iconkaluli',
               '203':'iconfont iconshiwu',
               '204':'iconfont icondenglu',
