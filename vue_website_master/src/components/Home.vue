@@ -3,8 +3,10 @@
     <!--头部布局-->
     <el-header>
       <div>
-        <img src="../assets/logo.jpg" alt class="logo_img" />
         <span>网页管理平台</span>
+        <span>
+          <a href="../assets/font/demo_index.html" target="_blank" class="nav-more">进入主页</a>
+        </span>
       </div>
       <el-button type="info" @click="logout">安全退出</el-button>
     </el-header>
