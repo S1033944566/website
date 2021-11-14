@@ -16,10 +16,5 @@ CREATE TABLE `easyuser` (
 
 
 INSERT INTO `easyuser` VALUES ('1', 'admin', '123456', '123@qq.com', '超级管理员', '1');
-INSERT INTO `easyuser` VALUES ('2', 'naughty', '888888', '456@qq.com', '普通管理员', '0');
-INSERT INTO `easyuser` VALUES ('3', 'flysky01', '987654', 'qwe@qq.com', '普通用户', '1');
-INSERT INTO `easyuser` VALUES ('4', 'anglybirds', '321654', 'aaaa@163.com', '普通用户', '0');
-INSERT INTO `easyuser` VALUES ('7', 'admin003', 'q123456', 'c@qq.com', '普通用户', '1');
-INSERT INTO `easyuser` VALUES ('8', 'admin005', '123456', 'cxz@qq.com', '普通用户', '0');
-INSERT INTO `easyuser` VALUES ('9', 'admin007', '123456', 'rty@qq.com', '普通用户', '0');
+
 

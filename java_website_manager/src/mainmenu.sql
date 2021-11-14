@@ -12,5 +12,5 @@ CREATE TABLE `mainmenu` (
 
 
 INSERT INTO `mainmenu` VALUES ('100', '权限管理', '/admin');
-INSERT INTO `mainmenu` VALUES ('200', '网页平台', '/use');
+INSERT INTO `mainmenu` VALUES ('200', '消息接收', '/message');
 

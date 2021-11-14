@@ -13,9 +13,8 @@ CREATE TABLE `submenu` (
 ) ENGINE=InnoDB AUTO_INCREMENT=204 DEFAULT CHARSET=utf8;
 
 INSERT INTO `submenu` VALUES ('101', '用户列表', '/user', '100');
-INSERT INTO `submenu` VALUES ('102', '修改权限', '/rights', '100');
-INSERT INTO `submenu` VALUES ('103', ' 网页模块', '/sport', '100');
-INSERT INTO `submenu` VALUES ('201', '网页科普', '/Introduction', '200');
+INSERT INTO `submenu` VALUES ('201', '客户信息', '/message', '200');
+
 
 
 

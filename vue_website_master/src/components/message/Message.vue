@@ -710,7 +710,7 @@
 <script>
 import Message from"../js/message";
 import Jquery from"../js/jquery.min";
-import Baidu from"../js/baidu_chat";
+// import Baidu from"../js/baidu_chat";
   export default {
 
   }
